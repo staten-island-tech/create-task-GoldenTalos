@@ -1,0 +1,41 @@
+.top {
+  width: 100%;
+  height: 425px;
+  background-image: url("/img/header2.jpg");
+  @include bkg-cover-fixed;
+  background-size: 1980px 500px;
+  background-repeat: no-repeat;
+}
+
+.header {
+  color:rgb(44, 44, 44);
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  line-height: 1.3;
+}
+
+#title {
+  margin-left: 640px;
+  margin-top: 6.5rem;
+  font-size: 100px;
+  background: none;
+  background-color: #f0f8ff94;
+  width: fit-content;
+  color: black;
+  
+}
+
+#titles {
+margin-left: 830px;
+margin-top: 6.5rem;
+font-size: 100px;
+background: none;
+background-color: #f0f8ff94;
+width: fit-content;
+color: black;
+
+}
+
+
+
