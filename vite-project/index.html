@@ -2,18 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./styles/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>API</title>
   </head>
   <body>
     <section class="top">
       <div class="header"> 
-        <span id="title"> Pokemon API </span>
       </div>
     </section>
     <section class="nav-bar">
-      <a href="index.html"><img class="logo" src="img/log.png" alt="Pokemon Logo"></img></a>
+      <a href="index.html"><img class="logo" src="img/index.png" alt="Pokemon Logo"></img></a>
       <div class="button">
         <button class="opt-btn" id="gen1"> Gen 1 </button>
         <button class="opt-btn" id="gen2"> Gen 2 </button>
@@ -22,9 +21,13 @@
         <button class="opt-btn" id="gen5"> Gen 5 </button>
         <button class="opt-btn" id="gen6"> Gen 6 </button>
         <button class="opt-btn" id="gen7"> Gen 7 </button>
-        <button class="opt-btn" id="gen8"> Gen 9 </button>
+        <button class="opt-btn" id="gen8"> Gen 8 </button>
         <button class="opt-btn" id="gen9"> Gen 9 </button>
-    <div id="app"></div>
+      </div>
+      <form class="search" id="form" action="submit">
+        <input type="text" id="search" >
+          <button class="btn">search</button></form>
+    <div class="pokemon" id="pokemon"></div>
     <script type="module" src="/main.js"></script>
   </body>
 </html>

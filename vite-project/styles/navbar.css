@@ -1,0 +1,63 @@
+.nav-bar {
+    margin-top: 1px;
+    margin-left: 24rem;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: sticky;
+    top:0;
+  }
+
+
+.btn:active {
+  transform: translateY(6px);
+}
+
+a:link {
+  text-decoration: none ;
+}
+
+a:visited {
+  text-decoration: none ;
+}
+
+a:hover {
+  text-decoration: none ;
+}
+
+a:active {
+  text-decoration: none ;
+}
+
+.logo {
+    margin-left: -20rem;
+    margin-top: 2.5rem;
+    height: 7.7vh; 
+}
+
+
+.opt-btn {
+    margin-top: 30px;
+    margin-right: 2rem;
+    width: 110px;
+    color: black;
+    font-size: 20px;
+    background: #ffcc00;
+    border: 4px solid  #ffa705;
+    border-radius: 5px;
+    padding: 4px;
+    text-decoration: none;
+    box-shadow: 3px 3px 3px rgba(71, 69, 69, 0.623);
+    transition-duration: 1s;
+}
+
+#all {
+  margin-right: 100rem;
+  margin-bottom: 10px;
+}
+
+
+.opt-btn:active {
+  transform: translateY(6px);
+}
