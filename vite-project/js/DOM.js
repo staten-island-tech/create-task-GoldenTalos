@@ -1,6 +1,6 @@
 const DOMSelectors = {
-  pokemon: document.getElementById("pokemon"),
-  input: document.getElementById("search"),
+  show: document.getElementById("pokemon"),
+  input: document.getElementById("stuff"),
   form: document.getElementById("form"),
 };
 

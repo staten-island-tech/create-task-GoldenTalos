@@ -1,40 +1,35 @@
 import { DOMSelectors } from "./dom";
 
-DOMSelectors.form.addEventListener("submit", function (e) {
-  e.preventDefault();
+DOMSelectors.form.addEventListener("submit", function (event) {
+  event.preventDefault();
   getData(DOMSelectors.input.value);
 });
 
-const query = async function () {
+async function getData(pokemon) {
   try {
     let URL = await fetch(`https://pokeapi.co/api/v2/pokemon/${pokemon}`);
     if (URL.status < 200 || URL.status > 299) {
       throw error(URL);
     } else {
-      const data = await response.json();
+      const data = await URL.json();
       console.log(data);
-      function displayCharacters() {
-        data.forEach((poke) => {
-          DOMSelectors.pokemon.insertAdjacentHTML(
-            "beforeend",
-            `<div class="pokemon_card">
+      DOMSelectors.show.insertAdjacentHTML(
+        "beforeend",
+        `<div class="pokemon_card">
             <img src="${data.sprites.front_default}" class="img" alt="img"></img>               
-                    <h3 class="name">${poke.name}</h3>
-                    <p class="id">ID: ${poke.id}</p>
-                    <p class="type1">${poke.types[0].type.name}</p>
+                    <h3 class="name">${data.name}</h3>
+                    <p class="id">ID: ${data.id}</p>
+                    <p class="type1">${data.types[0].type.name}</p>
+                    <button class="remove">Remove</button>
                 </div>`
-          );
-          pokemon_card();
-        });
-      }
-      displayCharacters();
+      );
+      pokemon_card();
     }
   } catch (error) {
     console.log(error);
     alert("An error occured.");
   }
-};
-query();
+}
 
 function pokemon_card() {
   let remove = document.querySelectorAll(".remove");
@@ -44,4 +39,3 @@ function pokemon_card() {
     });
   });
 }
-getData("bulbasaur");

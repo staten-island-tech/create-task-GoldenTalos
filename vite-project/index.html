@@ -11,8 +11,8 @@
       <div class="header"> 
       </div>
     </section>
+
     <section class="nav-bar">
-      <a href="index.html"><img class="logo" src="img/index.png" alt="Pokemon Logo"></img></a>
       <div class="button">
         <button class="opt-btn" id="gen1"> Gen 1 </button>
         <button class="opt-btn" id="gen2"> Gen 2 </button>
@@ -23,11 +23,17 @@
         <button class="opt-btn" id="gen7"> Gen 7 </button>
         <button class="opt-btn" id="gen8"> Gen 8 </button>
         <button class="opt-btn" id="gen9"> Gen 9 </button>
-      </div>
+      </div> </section>
+        <div class="search-div">
       <form class="search" id="form" action="submit">
-        <input type="text" id="search" >
-          <button class="btn">search</button></form>
+        <input
+        class="search-bar"
+            id="stuff" 
+            type="text" 
+            placeholder="Search for info...">
+          <button class="btn"><img src="img/icon.png" class="search-icon" alt="Search Icon"></button></form>
+        </div>
     <div class="pokemon" id="pokemon"></div>
-    <script type="module" src="/main.js"></script>
+    <script type="module" src="./js/main.js"></script>
   </body>
 </html>

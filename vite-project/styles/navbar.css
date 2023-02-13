@@ -1,6 +1,6 @@
 .nav-bar {
     margin-top: 1px;
-    margin-left: 24rem;
+    margin-left: 19rem;
     height: 8vh;
     display: flex;
     flex-direction: row;
@@ -30,12 +30,6 @@ a:active {
   text-decoration: none ;
 }
 
-.logo {
-    margin-left: -20rem;
-    margin-top: 2.5rem;
-    height: 7.7vh; 
-}
-
 
 .opt-btn {
     margin-top: 30px;
@@ -61,3 +55,33 @@ a:active {
 .opt-btn:active {
   transform: translateY(6px);
 }
+
+.search-div {
+  width: 100%;
+  flex-direction: column;
+}
+
+.search {
+  width: 70%;
+  display:flex;
+  flex-direction: row;
+}
+
+.search-bar {
+  margin-left: 50px;
+  margin-top:40px;
+  width: 100%;
+  padding: 1rem 2rem;
+  @include default-btns;
+}
+
+.btn {
+  margin-top: 40px;
+  width: 50px;
+  height: 50px;
+}
+.search-icon{
+  width: 50px;
+  height: 20px;
+}
+
