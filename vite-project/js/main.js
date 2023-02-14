@@ -1,4 +1,5 @@
 import { DOMSelectors } from "./dom";
+import "./card";
 
 DOMSelectors.form.addEventListener("submit", function (event) {
   event.preventDefault();
