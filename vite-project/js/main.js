@@ -28,7 +28,11 @@ async function getData(pokemon) {
     }
   } catch (error) {
     console.log(error);
-    alert("An error occured.");
+    DOMSelectors.show.insertAdjacentHTML(
+      "beforeend",
+      `<div class ="msg"> <p> Sorry, the pokemon you're lookng for cannot be found.</p>
+     </div>`
+    );
   }
 }
 
@@ -40,3 +44,18 @@ function pokemon_card() {
     });
   });
 }
+
+function clear() {
+    DOMSelectors.pokemon.value = ``;
+  }
+
+function remove() {
+    const card = Array.from(document.querySelectorAll(".pokecard"));
+    card.forEach((card) => card.remove());
+    const errormsgArray = Array.from(document.querySelectorAll(".errormsg"));
+    errormsgArray.forEach((msg) => msg.remove());
+    DOMSelectors.gen1.style.color = "";
+    DOMSelectors.gen2.style.color = "";
+    DOMSelectors.gen3.style.color = "";
+  },
+};

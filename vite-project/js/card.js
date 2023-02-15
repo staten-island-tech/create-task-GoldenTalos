@@ -8,21 +8,25 @@ const query = async function () {
     const data = await response.json();
     function displayCharacters() {
       data.results.forEach(async (data) => {
-        const response2 = await fetch(data.url);
-        const data2 = await response2.json();
-        let name = data2.name;
-        name = name.charAt(0).toUpperCase().slice(1);
-        let img = data2.sprites.front_default;
-        DOMSelectors.show.insertAdjacentHTML(
-          "beforeend",
-          `<div class="pokemon_card">
+        const response_2 = await fetch(data.url);
+        const data_2 = await response_2.json();
+        let name = data_2.name;
+        console.log(name);
+        let img = data_2.sprites.front_default;
+        let id = data_2.id;
+        let type = data_2.types[0].type.name;
+        "beforeend",
+          `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
-            </div>`
-        );
+                <p class="id">ID: ${id}</p>
+                <p class="type1">${type}</p>
+            </div>`;
       });
     }
     displayCharacters();
+
+    function gen1() {}
   } catch (error) {
     console.log(error);
     alert("An error occured.");
