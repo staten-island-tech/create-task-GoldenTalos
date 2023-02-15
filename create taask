@@ -1,1 +1,41 @@
-<mxfile host="app.diagrams.net" modified="2023-02-15T14:31:28.470Z" agent="5.0 (Windows)" version="20.8.13" etag="q6_dMzi1MKUbyc829w_w" type="github"><diagram name="Page-1" id="I8opYleK4jZVkUxRpDzc">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-15T14:33:25.463Z" agent="5.0 (Windows)" etag="liDJxAwXYF8Udb2b6YdO" version="20.8.13" type="github">
+  <diagram name="Page-1" id="I8opYleK4jZVkUxRpDzc">
+    <mxGraphModel dx="1589" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2000" pageHeight="2000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.308;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="aozf7NWlfTBZvVKvbPfh-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="aozf7NWlfTBZvVKvbPfh-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="150" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-1" value="start" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="710" y="80" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aozf7NWlfTBZvVKvbPfh-3" target="aozf7NWlfTBZvVKvbPfh-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-3" value="search pokemon" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-4" value="get pokemon stats" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aozf7NWlfTBZvVKvbPfh-6" target="aozf7NWlfTBZvVKvbPfh-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-6" value="click buttons (gen1, gen2, gen3, etc)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="230" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aozf7NWlfTBZvVKvbPfh-9" value="change the list to pokemon from each gen" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="370" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
