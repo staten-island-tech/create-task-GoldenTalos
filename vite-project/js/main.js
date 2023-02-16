@@ -44,18 +44,3 @@ function pokemon_card() {
     });
   });
 }
-
-function clear() {
-    DOMSelectors.pokemon.value = ``;
-  }
-
-function remove() {
-    const card = Array.from(document.querySelectorAll(".pokecard"));
-    card.forEach((card) => card.remove());
-    const errormsgArray = Array.from(document.querySelectorAll(".errormsg"));
-    errormsgArray.forEach((msg) => msg.remove());
-    DOMSelectors.gen1.style.color = "";
-    DOMSelectors.gen2.style.color = "";
-    DOMSelectors.gen3.style.color = "";
-  },
-};
