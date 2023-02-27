@@ -312,4 +312,59 @@ const query = {
     getData(URL);
   },
 };
+
+function clear() {
+  DOMSelectors.show.innerHTML = "";
+}
+
+document.getElementById("all").addEventListener("click", function () {
+  clear();
+  query.list();
+});
+
+document.getElementById("gen1").addEventListener("click", function () {
+  clear();
+  gen1();
+});
+
+document.getElementById("gen2").addEventListener("click", function () {
+  clear();
+  query.gen2();
+});
+
+document.getElementById("gen3").addEventListener("click", function () {
+  clear();
+  query.gen3();
+});
+
+document.getElementById("gen4").addEventListener("click", function () {
+  clear();
+  query.gen4();
+});
+
+document.getElementById("gen5").addEventListener("click", function () {
+  clear();
+  query.gen5();
+});
+
+document.getElementById("gen6").addEventListener("click", function () {
+  clear();
+  query.gen6();
+});
+
+document.getElementById("gen7").addEventListener("click", function () {
+  clear();
+  query.gen7();
+});
+
+document.getElementById("gen8").addEventListener("click", function () {
+  clear();
+  query.gen8();
+});
+
+document.getElementById("gen9").addEventListener("click", function () {
+  clear();
+  query.gen9();
+});
+
 query.list();

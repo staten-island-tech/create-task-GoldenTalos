@@ -44,3 +44,12 @@ function pokemon_card() {
     });
   });
 }
+
+function clear() {
+  DOMSelectors.show.innerHTML = "";
+}
+
+document.getElementById("all").addEventListener("click", function () {
+  clear();
+  list();
+});
