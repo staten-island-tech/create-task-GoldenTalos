@@ -14,7 +14,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -45,7 +45,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -76,7 +76,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -107,7 +107,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -138,7 +138,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -169,7 +169,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -200,7 +200,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -231,7 +231,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -262,7 +262,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
@@ -294,7 +294,7 @@ const query = {
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
-          DOMSelectors.show.insertAdjacentElement(
+          DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon-card">
                 <img src="${img}" class="img" alt="img"></img>               
