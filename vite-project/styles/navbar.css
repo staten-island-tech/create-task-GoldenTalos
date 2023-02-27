@@ -1,6 +1,6 @@
 .nav-bar {
     margin-top: 1px;
-    margin-left: 19rem;
+    margin-left: 15rem;
     height: 8vh;
     display: flex;
     flex-direction: row;
@@ -46,10 +46,6 @@ a:active {
     transition-duration: 1s;
 }
 
-#all {
-  margin-right: 100rem;
-  margin-bottom: 10px;
-}
 
 
 .opt-btn:active {
