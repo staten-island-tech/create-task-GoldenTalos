@@ -20,7 +20,7 @@ async function getData(pokemon) {
             <img src="${data.sprites.front_default}" class="img" alt="img"></img>               
                     <h3 class="name">${data.name}</h3>
                     <p class="id">ID: ${data.id}</p>
-                    <p class="type1">${data.types[0].type.name}</p>
+                    <p class="type">Type: ${data.types[0].type.name}</p>
                     <button class="remove">Remove</button>
                 </div>`
       );
@@ -30,7 +30,7 @@ async function getData(pokemon) {
     console.log(error);
     DOMSelectors.show.insertAdjacentHTML(
       "beforeend",
-      `<div class ="msg"> <p> Sorry, the pokemon you're lookng for cannot be found.</p>
+      `<div class ="msg"> <p> Sorry, the pokemon you're looking for cannot be found.</p>
      </div>`
     );
   }
@@ -45,11 +45,17 @@ function pokemon_card() {
   });
 }
 
-function clear() {
-  DOMSelectors.show.innerHTML = "";
-}
+const clear = {
+  clearStuff: function () {
+    const pokecard = Array.from(document.querySelectorAll(".pokemon_card"));
+    pokecard.forEach((card) => card.remove());
+    const errormsg = Array.from(document.querySelectorAll(".msg"));
+    errormsg.forEach((msg) => msg.remove());
+    DOMSelectors.input.value = "";
+  },
+};
 
-document.getElementById("all").addEventListener("click", function () {
-  clear();
-  list();
+document.getElementById("search").addEventListener("click", function () {
+  clear.clearStuff();
+  getData();
 });

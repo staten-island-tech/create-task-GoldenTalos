@@ -16,11 +16,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -47,11 +47,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -78,11 +78,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -109,11 +109,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -140,11 +140,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -171,11 +171,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -202,11 +202,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -233,11 +233,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -264,11 +264,11 @@ const query = {
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -290,17 +290,16 @@ const query = {
           const response_2 = await fetch(data.url);
           const data_2 = await response_2.json();
           let name = data_2.name;
-          console.log(name);
           let img = data_2.sprites.front_default;
           let id = data_2.id;
           let type = data_2.types[0].type.name;
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
-            `<div class="pokemon-card">
+            `<div class="pokemon_card">
                 <img src="${img}" class="img" alt="img"></img>               
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
-                <p class="type1">${type}</p>
+                <p class="type">Type: ${type}</p>
             </div>`
           );
         });
@@ -324,7 +323,7 @@ document.getElementById("all").addEventListener("click", function () {
 
 document.getElementById("gen1").addEventListener("click", function () {
   clear();
-  gen1();
+  query.gen1();
 });
 
 document.getElementById("gen2").addEventListener("click", function () {
