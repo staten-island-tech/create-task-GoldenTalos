@@ -367,3 +367,7 @@ document.getElementById("gen9").addEventListener("click", function () {
 });
 
 query.list();
+
+/* let allpokemon = data.results.map(
+  async (data) => await (await fetch(data.url)).json()
+); */

@@ -33,6 +33,9 @@ async function getData(pokemon) {
       `<div class ="msg"> <p> Sorry, the pokemon you're looking for cannot be found.</p>
      </div>`
     );
+    /* setTimeout(function () {
+      DOMSelectors.show.innerHTML = "";
+    }, 2000); */
   }
 }
 
