@@ -58,6 +58,18 @@ form {
   align-content: space-around;
 }
 
+#
+aa {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  width: 98.5vw;
+  justify-content: space-around;
+  align-content: space-around;
+}
+
 
 .img {
   margin: 0 auto;
