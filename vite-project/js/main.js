@@ -1,4 +1,4 @@
-import { DOMSelectors } from "./dom";
+import { DOMSelectors } from "./DOM";
 let URLL = null;
 let searchedpokemon = null;
 let history = [];
