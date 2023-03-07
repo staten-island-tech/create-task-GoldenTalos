@@ -2,6 +2,7 @@ import { DOMSelectors } from "./DOM";
 let URLL = null;
 let searchedpokemon = null;
 let history = [];
+
 DOMSelectors.form.addEventListener("submit", function (event) {
   event.preventDefault();
   getDataa();
