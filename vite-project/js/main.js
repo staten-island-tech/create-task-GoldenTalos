@@ -15,7 +15,7 @@ async function getDataa() {
     const response = await fetch(URLL);
     DOMSelectors.show.innerHTML = "";
     DOMSelectors.input.value = "";
-    if (URL.status < 200 || URL.status > 299) {
+    if (URLL.status < 200 || URLL.status > 299) {
       throw error(URLL);
     } else {
       const dataa = await response.json();
