@@ -35,7 +35,7 @@ async function getDataa() {
         aa.insertAdjacentHTML(
           "beforeend",
           `<div class="pokemon_card">
-              <img src="${dataa.sprites.front_default}" class="img" alt="img"></img>               
+              <img src="${dataa.sprites.front_default}" class="img" alt="img"></img>              
                       <h3 class="name">${dataa.name}</h3>
                       <p class="id">ID: ${dataa.id}</p>
                       <p class="type">Type: ${dataa.types[0].type.name}</p>
@@ -75,7 +75,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -84,7 +84,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -106,7 +106,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -115,7 +115,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -137,7 +137,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -146,7 +146,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -168,7 +168,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -177,7 +177,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -199,7 +199,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -208,7 +208,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -230,7 +230,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -239,7 +239,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -261,7 +261,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -270,7 +270,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -292,7 +292,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -301,7 +301,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -323,7 +323,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -332,7 +332,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
@@ -354,7 +354,7 @@ const query = {
           DOMSelectors.show.insertAdjacentHTML(
             "beforeend",
             `<div class="pokemon_card">
-                <img src="${img}" class="img" alt="img"></img>               
+                <img src="${img}" class="img" alt="img"></img>              
                 <h3 class="name">${name}</h3>
                 <p class="id">ID: ${id}</p>
                 <p class="type">Type: ${type}</p>
@@ -363,7 +363,7 @@ const query = {
         });
       } catch (error) {
         console.log(error);
-        alert("An error occured.");
+        alert("An error occurred.");
       }
     }
     getData(URL);
